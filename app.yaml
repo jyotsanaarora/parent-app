@@ -1,8 +1,6 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  finalizers:
-  - resources-finalizer.argocd.argoproj.io
   name: parent-app
   annotations:
     argocd.argoproj.io/sync-options: ServerSideApply=true
