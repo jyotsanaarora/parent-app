@@ -11,7 +11,7 @@ spec:
     namespace: test-jyo2
     server: https://kubernetes.default.svc
   source:
-    path: ./
+    path: simple-app
     repoURL: https://github.com/jyotsanaarora/gitops-certification-examples.git
     targetRevision: HEAD
   sources: []
