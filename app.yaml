@@ -4,7 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: ServerSideApply=true
   name: parent-app
-  namespace: openshift-gitops
+  namespace: test-jyo2
 spec:
   destination:
     name: ''
