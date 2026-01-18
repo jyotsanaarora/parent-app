@@ -4,11 +4,11 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: ServerSideApply=true
   name: parent-app
-  namespace: test-jyo2
+  namespace: test-jyo
 spec:
   destination:
     name: ''
-    namespace: test-jyo
+    namespace: test-jyo2
     server: https://kubernetes.default.svc
   source:
     path: simple-app
