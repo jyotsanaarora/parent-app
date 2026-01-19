@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     name: ''
-    namespace: test-jyo2
+    namespace: test-jyo
     server: https://kubernetes.default.svc
   source:
     path: simple-app
