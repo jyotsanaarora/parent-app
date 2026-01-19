@@ -16,5 +16,7 @@ spec:
     targetRevision: HEAD
   sources: []
   project: default
-  syncPolicy: {}
+  syncPolicy:
+    automated:
+       selfHeal: true
 
